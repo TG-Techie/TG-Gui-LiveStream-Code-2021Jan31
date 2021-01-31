@@ -11,7 +11,7 @@ import tg_gui_pyportal as setup
 @setup.appwrapper
 class Application(Layout):
 
-    # state is a way of manging what out app displays
+    # state is a way of managing what data our app displays
     some_data = State(0.5)
 
     # we'll start with just a slider and some text

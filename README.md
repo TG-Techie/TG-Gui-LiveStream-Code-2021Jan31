@@ -1,7 +1,7 @@
 # TG-Gui-LiveStream-Code-2021Jan31
-Prview code for a live-stream code-along of the TG-Gui framework.
+preview code for a live-stream code-along of the TG-Gui framework.
 
-This code is meant to accompany a live stream walking thorught it. 
+This code is meant to accompany a live stream walking thorught it.
 These files are commented but the livestream will have more complete explaintions of why and how.
 
 [Tune in here](https://www.youtube.com/watch?v=vUG5in-YgkE)

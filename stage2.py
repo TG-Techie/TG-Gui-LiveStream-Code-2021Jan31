@@ -11,7 +11,7 @@ import tg_gui_pyportal as setup
 @setup.appwrapper
 class Application(Layout):
 
-    # start with three rects and play around with potioning
+    # start with three rects and play around with positioning
     rect1 = Rect(fill=color.red)
     rect2 = Rect(fill=color.green)
     rect3 = Rect(fill=color.blue)
@@ -19,7 +19,7 @@ class Application(Layout):
     def _any_(self):
         # save the size here to make the code clearer
         rect_size = (self.width // 3, self.height // 3)
-        # use `rect1 = self.rects(...)` to make out code clearer
+        # use `rect1 = self.rects(...)` to, again, make the code clearer
         rect1 = self.rect1((left, top), rect_size)
         # use the position descriptors `above`, `below`, `rightof`, and `leftof` to place widgets
         rect2 = self.rect2(below(rect1), rect_size)

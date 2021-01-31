@@ -21,12 +21,12 @@ class Application(Layout):
     # first we declare what widgets we want in our app
     our_rect = Rect(fill=color.red)
 
-    # then we delare where we wnat them
+    # then we delare where we want them
     def _any_(self):
         self.our_rect(
             # 1st argument is a (horizontal, vertical) tuple for poition
             (center, top),
-            # 2nd argument is a (horizontal, vertical) tuple for dimentions
+            # 2nd argument is a (horizontal, vertical) tuple for dimensions
             (self.width // 2, self.height // 2),
         )
 

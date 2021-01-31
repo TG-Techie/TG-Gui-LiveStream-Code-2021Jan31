@@ -13,7 +13,7 @@ class Application(Layout):
 
     some_data = State(0.5)
 
-    # now let's make the lable show the value of the slider
+    # now let's make the label show the value of the slider
     our_label = Label(
         text=DerivedState(some_data, lambda d: f"value: {round(d*100, 2)}")
     )

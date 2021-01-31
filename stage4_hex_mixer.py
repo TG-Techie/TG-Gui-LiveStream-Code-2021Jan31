@@ -19,7 +19,7 @@ class Application(Layout):
         lambda r, g, b: color.fromfloats(r, g, b),
     )
 
-    # our output
+    # the color and hex output
     sample_color = Rect(fill=rgb)
     hexout = Label(text=DerivedState(rgb, lambda rgb: hex(rgb)))
 
